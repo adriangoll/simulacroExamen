@@ -25,4 +25,8 @@ function condicionAlumno(nota){
 let nota = prompt("ingrese la nota");
 nota = parseInt(nota);
 condicion = condicionAlumno(nota)
-console.log(`Su nota fue de: ${nota}, y su condicion es: ${condicion}`)
+if (condicion === "REVISA EL DATO INGRESADO"){
+    console.log(condicion)
+}
+else{
+    console.log(`Su nota fue de: ${nota}, y su condicion es: ${condicion}`)}
